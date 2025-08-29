@@ -78,5 +78,4 @@ cc_prebuilt_binary {
         none: true,
     },
     srcs: ["RemovePackagesX00TD"],
-    installable: false,
 }
