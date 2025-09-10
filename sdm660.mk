@@ -15,6 +15,9 @@ $(call inherit-product, hardware/qcom-caf/common/common.mk)
 # Inherit our signing key (for signed build)
 $(call inherit-product-if-exists, vendor/lineage-priv/keys/keys.mk)
 
+# For device without sdcardfs
+$(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
+
 # Kernel
 PRODUCT_ENABLE_UFFD_GC := true
 
