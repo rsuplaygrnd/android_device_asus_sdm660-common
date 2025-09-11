@@ -73,8 +73,6 @@ cc_prebuilt_binary {
         "WellbeingPrebuilt",
         "YouTube",
         "YouTubeMusicPrebuilt",
-        "Google",
-        "SafetyHub",
     ],
     strip: {
         none: true,
