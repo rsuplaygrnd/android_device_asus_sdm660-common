@@ -16,8 +16,7 @@ $(call inherit-product, hardware/qcom-caf/common/common.mk)
 $(call inherit-product-if-exists, vendor/lineage-priv/keys/keys.mk)
 
 # Kernel
-PRODUCT_ENABLE_UFFD_GC := false
-OVERRIDE_ENABLE_UFFD_GC := false
+PRODUCT_ENABLE_UFFD_GC := true
 
 # Default is nosdcard, S/W button enabled in resource
 PRODUCT_CHARACTERISTICS := nosdcard
