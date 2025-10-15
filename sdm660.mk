@@ -148,10 +148,6 @@ PRODUCT_PACKAGES += \
     libqdMetaData.system \
     libqdMetaData
 
-# DT2W
-PRODUCT_PACKAGES += \
-    DT2WServiceSDM660
-
 PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0_32 \
     android.frameworks.displayservice@1.0.vendor \
