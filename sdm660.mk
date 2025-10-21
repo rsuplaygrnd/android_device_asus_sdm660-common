@@ -540,7 +540,7 @@ $(call inherit-product, vendor/qcom/opensource/vibrator/vibrator-vendor-product.
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service-sdm660
+    android.hardware.biometrics.fingerprint@2.1-service-asus_sdm660
 
 # protobuf
 PRODUCT_PACKAGES += \
