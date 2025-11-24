@@ -31,6 +31,9 @@ persist.sys.usb.config=mtp,adb
 ro.adb.secure=0
 ro.debuggable=1
 
+# eBPF
+ro.bpf.kver_override=5.10.245
+
 # Telephony
 # Disable handling audio direction changes on IMS calls.
 ro.telephony.handle_audio_direction_changes_between_call_state_changes=false
